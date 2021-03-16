@@ -1,7 +1,7 @@
 package com.callor.hello;
 
 public class Nums01 {
-
+	// 30km/h
 	public static void main(String[] args) {
 		
 		System.out.print(3);
