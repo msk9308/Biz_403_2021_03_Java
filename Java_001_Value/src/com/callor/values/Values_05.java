@@ -24,6 +24,9 @@ public class Values_05 {
 		System.out.println(4 >= 3);
 		System.out.println(4 <= 3);
 		
+		System.out.println(3 != 3);
+		//같지 아니한가
+		
 	}
 
 }
