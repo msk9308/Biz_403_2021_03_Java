@@ -16,7 +16,7 @@ public class Array_01 {
 		intKors[i] = rnd.nextInt(100) + 1;
 	}
 	int intSum = 0;
-	for(int i = 0 ; i< 100; i++) {
+	for(int i = 0; i< 100; i++) {
 		//intSum+= intKors[0]
 		//
 		//intSum += intKors[i];

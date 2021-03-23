@@ -23,12 +23,12 @@ public class Array_02 {
 	//값읽기
 	//=intKors[위치주소]
 	//=intKors[첨자]
-	intKor = intKors[0];
-	intKor = intKors[1];
-	intKor = intKors[2];
+	intKor1 = intKors[0];
+	intKor2 = intKors[1];
+	intKor3 = intKors[2];
 	
-	for(int inext = 0; index < 3; index ++) {
-		System.out.println(intKor[index]);
+	for(int index = 0; index < 3; index ++) {
+		System.out.println(intKors[index]);
 	}
 	
 	}
