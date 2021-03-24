@@ -28,6 +28,9 @@ public class App_10 {
 		 * 
 		 * i j ======================================= 0 1 1 2 2 3 3 4 4 5 5 6 : [71,
 		 * 16, 14, 96, 14, 80, 33, 17, 40, 76]
+		 * 
+		 * 배열의 오름차순 정렬코드
+		 * 
 		 */
 		for (int i = 0; i < intNums.length; i++) {
 
@@ -43,7 +46,7 @@ public class App_10 {
 
 			}
 		}
-		System.out.println(Array.toString(intNums));
+		System.out.println(Arrays.toString(intNums));
 
 	}
 
