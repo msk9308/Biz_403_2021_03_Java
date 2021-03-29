@@ -1,6 +1,5 @@
 package com.callor.apps.service;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class ScoreServiceV1 {
@@ -47,7 +46,6 @@ public class ScoreServiceV1 {
 			sum5 += num5[i];
 		}
 	}
-
 	public void scoreSum() {
 
 		System.out.printf("첫번째학생 총점: %d 평균: %3.2f\n",sum1,(float)sum1/3);
@@ -55,7 +53,5 @@ public class ScoreServiceV1 {
 		System.out.printf("세번째학생 총점: %d 평균: %3.2f\n",sum3,(float)sum3/3);
 		System.out.printf("네번째학생 총점: %d 평균: %3.2f\n",sum4,(float)sum4/3);
 		System.out.printf("다섯번째학생 총점: %d 평균: %3.2f\n",sum5,(float)sum5/3);
-
 	}
-
 }
