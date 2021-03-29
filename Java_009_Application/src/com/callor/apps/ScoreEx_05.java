@@ -17,7 +17,7 @@ public class ScoreEx_05 {
 		 * 클래스를 사용한 객체배열은 생성을 하여도
 		 * 개별 요소들이 자동으로 초기화 되지 않는다
 		 */
-		Scores[0] = new ScoreVO();
+		//Scores[0] = new ScoreVO();
 		//객체 배열은 사용(저장,읽기)를 시도하기전
 		//개별요소를 반드시 생성(초기화)해주어야 한다.
 		scores[0].name = "홍길동";
@@ -32,6 +32,7 @@ public class ScoreEx_05 {
 		for(int i = 0; i < scores.length; i++) {
 			scores[i] = new ScoreVO();
 		}
+		System.out.println(scores[1].kor);
 		
 		
 	}
