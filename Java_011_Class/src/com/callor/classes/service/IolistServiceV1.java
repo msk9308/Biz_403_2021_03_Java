@@ -133,7 +133,7 @@ public class IolistServiceV1 {
 			if(strMenu.equals("QUIT")) {
 				break;
 			}
-			int intMenu = scan.nextInt();
+			Integer intMenu = scan.nextInt();
 			if (intMenu == 1) {
 				this.input();
 			} else if (intMenu == 2) {
