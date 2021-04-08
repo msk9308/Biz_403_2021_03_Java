@@ -12,6 +12,7 @@ public class Ex_01 {
 		isV1.inputValue("새우깡");
 		isV1.inputValue("새우깡", 0);
 		isV1.inputValue("새우깡", 0, 0);
+		
 	}
 
 }

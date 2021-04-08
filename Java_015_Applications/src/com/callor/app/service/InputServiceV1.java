@@ -49,8 +49,5 @@ public class InputServiceV1 {
 		while(true) {
 			Integer intInput = this.inputValue(title2);
 		}
-		
-
 	}
-
 }
