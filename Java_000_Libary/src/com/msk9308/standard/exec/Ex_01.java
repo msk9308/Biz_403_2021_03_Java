@@ -1,4 +1,4 @@
-package com.msk9308.standard;
+package com.msk9308.standard.exec;
 
 import com.msk9308.standard.impl.InputServiceImplV1;
 
