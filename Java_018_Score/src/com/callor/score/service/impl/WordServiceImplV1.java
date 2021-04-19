@@ -99,6 +99,8 @@ public class WordServiceImplV1 implements WordService {
 			} else {
 				System.out.println("좀더 열심히 공부합시다@@");
 				nLossCount++;
+				this.getWord();
+				
 		
 			}
 			System.out.println("=".repeat(50));
